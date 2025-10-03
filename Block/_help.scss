@@ -1,0 +1,30 @@
+.help {
+  width: 1200px;
+  background-color: black;
+  margin: auto;
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  &__title {
+    margin-top: 200px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+
+    color: #ffffff;
+  }
+  &__text {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+
+    color: #c0c0c0;
+  }
+}

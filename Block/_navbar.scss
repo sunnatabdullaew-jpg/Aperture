@@ -1,0 +1,27 @@
+.navbar{
+    width: 1200px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+    margin: auto;
+
+    &__list{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 70px;
+    }
+    &__link{
+        color: grey;
+    }
+    &__button{
+        width: 125px;
+        height: 30px;
+        border: none;
+        border-radius: 20px;
+        font-size: large;
+        font-weight: 300;
+    }
+}

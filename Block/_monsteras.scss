@@ -1,0 +1,41 @@
+.Monsteras {
+  width: 1200px;
+  margin: auto;
+  background-image: url(../images/IMAGE__lists.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  &__title {
+    font-family: "Poppins";
+    font-style: normal;
+    margin-top: 300px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #ffffff;
+  }
+  &__text {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+
+    color: #c0c0c0;
+  }
+  &__items{
+    width: 300px;
+    height: 500px;
+    margin-left: 850px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 5px;
+  }
+}
